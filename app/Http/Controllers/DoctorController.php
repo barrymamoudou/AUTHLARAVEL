@@ -115,7 +115,7 @@ class DoctorController extends Controller
         }else{
             return response()->json([
                 'status'=>true,
-                'message'=>'create doctor not updated !',
+                'message'=>'create doctor !',
                 'data'=>null,
             ],404);
         }
